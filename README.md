@@ -34,12 +34,15 @@ Microsoft Azure Subscription
   <li>
     <p>Click on the "Remote Desktop" tab.</p>
   </li>
+  <img src="https://imgur.com/GALu0Ha.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <li>
     <p>Select the option to allow remote connections to this computer.</p>
   </li>
   <li>
     <p>Click "Select Users..." and add the "Domain Users" group to the list of allowed users.</p>
   </li>
+  <img src="https://imgur.com/eNlzi2f.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://imgur.com/PUU8N6X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <li>
     <p>You can now log into Client-1 as a normal, non-administrative domain user.</p>
     <p><strong>Note:</strong> In a real-world environment, this configuration would typically be managed via Group Policy for centralized control.</p>
@@ -55,6 +58,7 @@ Microsoft Azure Subscription
   <li>
     <p>Open PowerShell ISE as an administrator.</p>
   </li>
+  <img src="https://imgur.com/UBGo4Kx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <li>
     <p>Create a new file and paste the provided PowerShell script (for user creation) into it.</p>
     <p><strong>Note:</strong> Ensure you have the script content available. The script should create multiple users within the _EMPLOYEES OU.</p>
@@ -65,6 +69,7 @@ Microsoft Azure Subscription
   <li>
     <p>Open Active Directory Users and Computers (ADUC) and verify that the new user accounts are created within the <code>_EMPLOYEES</code> OU.</p>
   </li>
+   <img src="https://imgur.com/iz19f0D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <li>
     <p>Attempt to log into Client-1 using one of the newly created user accounts. Refer to the script for the password.</p>
   </li>
